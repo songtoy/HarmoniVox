@@ -2,7 +2,7 @@
 
 **HarmoniVox: Painting Voices to Match the Avatar's Soul** · ACM MM 2025
 
-[Paper](https://doi.org/10.1145/3746027.3755736) · [Citation](#citation)
+[Paper](https://doi.org/10.1145/3746027.3755736) · [Demo](https://harmonivox.github.io/harmonivox/) · [Citation](#citation)
 
 Image-conditioned text-to-speech using a CLIP visual encoder, Q-Former and a
 Bert-VITS2-based speech synthesizer. This release preparation covers the
