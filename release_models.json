@@ -1,0 +1,47 @@
+{
+  "default_profile": "paper-proposed",
+  "profiles": {
+    "paper-proposed": {
+      "description": "MM25 published Proposed model: matches all nine Table 2 intra/out-of-domain classification metrics; identical to paper_used/proposed",
+      "checkpoint_step": 12000,
+      "config_sha256": [
+        "deaaeb11cc69851e17cf98322444ecf1029065874d26f43fc04f816e55429453",
+        "68b0f8ff2f362f7bab30b73f65177f5bb6e4bf39f2c2b6380c839b30fbb4d840"
+      ],
+      "checkpoints": {
+        "E_12000.pth": [
+          "c7f72e10d669c47b3a494d3f9a335bac89b41ef2a9c07ec16f3fe9fcdc440a90",
+          "dcce75dfd13549e5ffba4a2f2c1ca7f3defc3b1dc68be6424e402fd0d0d1905e"
+        ],
+        "G_12000.pth": [
+          "574f5d4a764c3e72598b76eb267ee382d8d30da3bdfbc764943a1d176a960b15",
+          "294e3ea3f1f6849bbab73660e00a509d601bb9782f0182c568266930a70b7971"
+        ]
+      },
+      "publication_status": "published MM25 final result family",
+      "evidence": "docs/MM25_FINAL_MODEL.md",
+      "exported_checkpoints": {
+        "G_12000.pth": "294e3ea3f1f6849bbab73660e00a509d601bb9782f0182c568266930a70b7971",
+        "E_12000.pth": "dcce75dfd13549e5ffba4a2f2c1ca7f3defc3b1dc68be6424e402fd0d0d1905e"
+      }
+    },
+    "experimental-proposed-1e-6": {
+      "description": "Later 1e-6 full-model experiment; does not match published MM25 Table 2/3 metrics",
+      "checkpoint_step": 12000,
+      "config_sha256": [
+        "deaaeb11cc69851e17cf98322444ecf1029065874d26f43fc04f816e55429453",
+        "68b0f8ff2f362f7bab30b73f65177f5bb6e4bf39f2c2b6380c839b30fbb4d840"
+      ],
+      "checkpoints": {
+        "E_12000.pth": [
+          "35e1ead71ae6d6dcaa1e85d3bb24069508422653ea6f479ec03e573529406961"
+        ],
+        "G_12000.pth": [
+          "b2a629469f3904b1004e559a64f5ddc1ca038e0af67d4cca86995e638480379d"
+        ]
+      },
+      "publication_status": "supplemental experiment, not the published final result family"
+    }
+  },
+  "hub_repo_id": "sonterzhuo/HarmoniVox"
+}

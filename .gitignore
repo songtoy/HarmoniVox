@@ -1,0 +1,36 @@
+# Local data, weights and generated artifacts
+/data/
+/bert/
+/slm/
+/pretrained_models/
+/result/
+/results/
+/outputs/
+/artifacts/
+/inference_set/
+/wandb/
+/checkpoint/
+/.cache/
+/text/cmudict_cache.pickle
+*.bin
+*.pth
+*.pt
+*.safetensors
+*.onnx
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+/build/
+/dist/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.local.yml
+.DS_Store

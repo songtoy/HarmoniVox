@@ -1,0 +1,3 @@
+# Public inference dependencies. Select the CPU/CUDA PyTorch wheels first.
+# See readme.md for fully pinned environment instructions.
+-r requirements-inference.txt
